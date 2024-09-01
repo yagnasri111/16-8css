@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    place-content: center;
+}
+.topparent{
+    background-color: #EEEEEE;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.child{
+    width: 400px;
+    background-color: #ffffff;
+    margin: 10px;
+    padding: 20px;
+   /* display: inline-block;*/
+}
+.fa-star{
+    color: green;
+}
+.top{
+    display: flex;
+    justify-content: flex-start;
+    gap: 25px;
+    margin: 5px;
+}
+.text-dec{
+    text-decoration: none;
+}
+.middle{
+  font-weight: 700; 
+   margin: 5px;
+}
+.last{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+}
